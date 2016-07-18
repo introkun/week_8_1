@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "rus");
+	// monthCount
 	int const month = 12;
 	int masiv[month];
 	int l, k;
