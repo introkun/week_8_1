@@ -21,7 +21,9 @@ int main()
 		cout << masiv[l] << " ";
 	}
 	cout << endl;
+	// Не объявляйте переменные в одной строке
 	int sum = 0, min = 0, max = 0, proiz = 1, proizChot = 1;
+	// Не объявляйте переменные в одной строке
 	int sumOtr = 0, otr1 = 0, otrPosl;
 	for (int i = 0; i < size; i++)
 	{
@@ -29,6 +31,7 @@ int main()
 		{
 			min = masiv[i];
 		}
+		// C "else if" ваша программа неправильно определяет максимум
 		else if (max < masiv[i])
 		{
 			max = masiv[i];
